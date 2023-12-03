@@ -1,8 +1,14 @@
-# React + Vite
+# React + Vite + Material UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is little project suitable for junior devs.
 
-Currently, two official plugins are available:
+Requirements:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   Build six squares with no color
+-   Every time you click one, it turns green
+-   When the last square turns green, they all go back to no color in backwards sequence to which it was clicked (not all at once)
+
+Bonus Features:
+
+-   Clicking on a green square will reset it's color
+-   Add a label to a square when it turns green to follow the order it resets
